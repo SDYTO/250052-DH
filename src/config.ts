@@ -1,23 +1,23 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "资源分享",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
+        title: "网盘一",
+        url: "http://alist.nas.250052.xyz:5000/",
         icon: "",
         color: "#0171CD",
       },
       {
-        title: "主标题",
-        description: "网站描述",
+        title: "主标题2",
+        description: "网站描述2",
         url: "http://www.your-web-page.com/",
         icon: "",
       },
       {
-        title: "主标题",
-        description: "网站描述",
+        title: "主标题3",
+        description: "网站描述3",
         url: "http://www.your-web-page.com/",
         icon: "",
       },
@@ -31,17 +31,21 @@ const WEBSITE_SORTS: WebsiteSort[] = [
   },
   {
     title: "示例分类4",
-  },
-  {
+        {
+        title: "Blog",
+        description: "博客",
+        url: "https://blog.27021502.xyz/",
+        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+      },
     title: "示例分类5",
   },
   {
     title: "友情链接",
     sites: [
       {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
+        title: "Blog",
+        description: "博客",
+        url: "https://blog.27021502.xyz/",
         icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
       },
     ],
@@ -59,7 +63,7 @@ const GLOBAL_CONFIG = {
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://blog.27021502.xyz/",
   /**
    * 指定中心 LOGO 图片地址
    */
